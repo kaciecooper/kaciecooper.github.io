@@ -1,10 +1,11 @@
 body {
-	background: #FAEBD7 url('../images/vintage-concrete.png');
+	background: #FAEBD7 url('../images/images/dot-grid.png');
 	color: #333;
+
 }
 
 a {
-	text-decoration: none;
+	text-decoration:;
 	color: #333;
 }
 
@@ -18,26 +19,32 @@ header, nav, main, footer {
 
 /* Header styles */
 header { 
-	background-color: #000;
-	color: BlanchedAlmond;
+	color: #1753B3;
 	min-height: 100px;
 	margin-top: 60px;
+    font-family: 'Oswald', sans-serif;
+    text-align:center;
+    font-size:30px;
 }
 
 header h1 {
-	padding: 40px 60px;
+	padding: 50px 60px;
 }
 
 
 /* Nav styles */
-nav { background-color: #333; }
+nav { background-color:; }
 nav ul { 
 	display: flex;
-	justify-content: flex-end;
+	justify-content:center;
+	
 }
-nav li { padding: 10px 10px; }
-nav a { color: BlanchedAlmond; }
-nav a:hover { color: white; }
+nav li { padding: 10px 10px; 
+}
+nav a { color: ##1753B3;
+text-decoration:none; 
+}
+nav a:hover { color: #1753B3; }
 
 
 /* Main styles */
@@ -45,7 +52,15 @@ main {
 	background-color: #fff;
 	display: grid;
 	grid-template-columns: 60% 40%;
+	width: 300px;
+  	height: 300px;
 }
+
+.round { 
+
+border-radius: 360% 
+}
+
 
 section {
 	padding: 40px 60px;
@@ -53,8 +68,8 @@ section {
 
 section ul, aside ul {
 	list-style-type: square;
-	margin-top: 20px; 
-	margin-left: 30px;
+	margin-top: 60px; 
+	margin-left: 20px;
 }
 
 aside {
