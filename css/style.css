@@ -89,16 +89,18 @@ section ul, {
 	margin-left: 30px;
 }
 
-img{
-        z-index: 0;
-        position: absolute;
-        margin: 0 auto;
-        left: 0;
-        right: 0;
-        top: 20px; 
-        text-align: center;
-        width: 110%;  
-    }
+img {
+    z-index: 0;
+    position: absolute;
+    margin: -1px auto;
+    left: -259px;
+    right: 0px;
+    top: -132px;
+    text-align: center;
+    width: 110%;
+    width: 1031px;
+    height: 1002p;
+}
 
 
 /* Footer styles */
