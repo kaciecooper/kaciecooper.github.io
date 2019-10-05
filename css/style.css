@@ -90,16 +90,15 @@ section ul, {
 }
 
 img {
-    z-index: 0;
+	z-index:-1;
     position: absolute;
-    margin: -1px auto;
-    left: -259px;
+    margin: -1px;
+    left: -300px;
     right: 0px;
-    top: -132px;
+    top: -169px;
     text-align: center;
-    width: 110%;
-    width: 1031px;
-    height: 1002p;
+    width: 1083px;
+    float: inherit;
 }
 
 
