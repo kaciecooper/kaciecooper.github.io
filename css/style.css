@@ -75,6 +75,8 @@ h3 {
 
 }
 section {
+	z-index: 999;
+    position: relative;
 	text-align:center;
 	line-height: 7em;
 	font-size:20px;
