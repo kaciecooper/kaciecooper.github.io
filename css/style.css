@@ -90,14 +90,14 @@ section ul, {
 }
 
 img {
-	z-index:-999;
+	z-index: -999;
     position: absolute;
     margin: -1px;
-    left: -300px;
+    left: -30px;
     right: 0px;
-    top: -169px;
+    top: -31px;
     text-align: center;
-    width: 1083px;
+    width: 504px;
     float: inherit;
 }
 
