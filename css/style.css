@@ -1,87 +1,101 @@
 body {
-	background: #FAEBD7 url('../images/images/dot-grid.png');
-	color: #333;
-
+	background: #6FAB9E;
 }
 
 a {
-	text-decoration:;
-	color: #333;
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Cutive Mono', monospace;
 }
 
-a:hover { color: Tomato; }
+a:hover {color:#6FAB9E; }
 
 header, nav, main, footer {
 	width: 80%;
 	margin: auto;
 }
 
+/* Nav styles */
+nav {
+text-align:center; }
+
+nav ul { 
+	display: flex;
+	justify-content: flex-end;	
+}
+
+nav li { padding: 10px 10px; }
+nav a { color: #fff }
+nav a-hover: { color:#F5B5B8}
+nav a-visted:{color:#F5B5B8}
+
+
 
 /* Header styles */
 header { 
-	color: #1753B3;
-	min-height: 100px;
-	margin-top: 60px;
-    font-family: 'Oswald', sans-serif;
-    text-align:center;
-    font-size:30px;
+	margin-top: 20px;
+	
 }
 
 header h1 {
-	padding: 50px 60px;
-}
+	padding: 40px 60px;
+	font-size: 45px;
+	color:#fff;
+	text-align: center;
+	font-family: 'Abril Fatface', cursive;
 
 
-/* Nav styles */
-nav { background-color:; }
-nav ul { 
-	display: flex;
-	justify-content:center;
-	
 }
-nav li { padding: 10px 10px; 
-}
-nav a { color: ##1753B3;
-text-decoration:none; 
-}
-nav a:hover { color: #1753B3; }
 
 
 /* Main styles */
 main { 
-	background-color: #fff;
-	display: grid;
-	grid-template-columns: 60% 40%;
-	width: 300px;
-  	height: 300px;
+	background-color: #F5B5B8;
+	width: 500px;
+  	height: 500px;
+	border-radius: 360% 
 }
 
-.round { 
+section{ 
+align-content: center;
+	border-right:#F5B5B8 solid;
+    border-left:#F5B5B8 solid;
+    border-bottom:#F5B5B8 solid;
+    height:500px; }
 
-border-radius: 360% 
+
+h3 {
+	color:#6FAB9E;
+    font-family: 'Abril Fatface', cursive;
+    text-align:center;
+    font-size:35px;
+    text-decoration: underline;
+    padding: 5px 60px;
+
 }
-
-
 section {
-	padding: 40px 60px;
+	text-align:center;
+	line-height: 7em;
+	font-size:20px;
+	font-family: 'Cutive Mono', monospace;
+	
 }
 
-section ul, aside ul {
-	list-style-type: square;
-	margin-top: 60px; 
-	margin-left: 20px;
+section ul, {
+	margin-top: 20px; 
+	margin-left: 30px;
 }
 
-aside {
-	padding: 40px 10px;
-}
+
 
 
 
 /* Footer styles */
 footer { 
-	background-color: #000;
-	color: white;
+
+	color: #fff;
 	text-align: center;
+	font-family: 'Cutive Mono', monospace;
+	font-size:10px;
  }
  footer p { padding: 20px; }
