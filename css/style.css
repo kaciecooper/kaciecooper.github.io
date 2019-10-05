@@ -2,6 +2,7 @@ body {
 	background: #6FAB9E;
 }
 
+
 a {
 	text-decoration: none;
 	color: #fff;
@@ -43,8 +44,6 @@ header h1 {
 	color:#fff;
 	text-align: center;
 	font-family: 'Abril Fatface', cursive;
-
-
 }
 
 
@@ -55,6 +54,8 @@ main {
   	height: 500px;
 	border-radius: 360% 
 }
+
+
 
 section{ 
 align-content: center;
@@ -78,7 +79,7 @@ section {
 	line-height: 7em;
 	font-size:20px;
 	font-family: 'Cutive Mono', monospace;
-	
+
 }
 
 section ul, {
@@ -86,8 +87,16 @@ section ul, {
 	margin-left: 30px;
 }
 
-
-
+img{
+        z-index: 0;
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 20px; 
+        text-align: center;
+        width: 110%;  
+    }
 
 
 /* Footer styles */
