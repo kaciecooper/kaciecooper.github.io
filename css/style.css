@@ -1,15 +1,2 @@
-.invisible {
-    visibility: hidden;
-}
 
-body{
-  background-color:#FFF;
-  overflow:hidden;
-}
-
-svg{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
