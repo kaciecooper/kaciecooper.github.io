@@ -6,6 +6,12 @@ a{
 
 
 
+  svg{
+  width:10%;
+}
+
+
+
 .name-svg{
 	width:500px;
 	height:250px;
@@ -48,80 +54,10 @@ a{
 	height:800px;
   }
 
-
-  svg{
-  width:10%;
-}
-
-.svgContainer{
+ 
+.svg-container{
   text-align:center;
   margin-top:-70%;
 }
 
-p{
-  text-align:center;
-  margin-top:10%;
-}
 
-
-
-
-
-#flowers-01 {
-
-
-
-  }
-
-
-
-#flowers-02 {
-
-
-
-  }
-
-
-#flowers-03 {
-
-
-
-  }
-
-
-#flowers-04 {
-
-
-
-  }
-
-
-#flowers-05 {
-
-
-
-  }
-
-
-#flowers-06 {
-
-
-
-  }
-
-
-#flowers-07 {
-
-
-
-  }
-
-
-
-@keyframes kaboom {
-  90% {
-    transform: scale(1.0);
-  }
-  100% {
-    transform: scale(1.1);
-  }
