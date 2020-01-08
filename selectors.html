@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JQuery demo | Selectors </title>
+	<script
+	  src="http://code.jquery.com/jquery-3.4.1.min.js"
+	  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	  crossorigin="anonymous"></script>
+
+	<style>
+	body{
+		font-size: 17 px;
+		font-family: arial;
+		background:#f4f4f4;
+		line-height: 1.5em;
+	}	
+
+	header{
+		background:#333;
+		color:#fff;
+		padding:20px;
+		text-align:center;
+		border-bottom:4px #000 solid;
+		margin-bottom:10px;
+	}
+
+	#container{
+		width:90%;
+		margin:auto;
+		padding:10px;
+	}
+
+
+	.myClass { 
+		color:blue;
+		background:black;
+
+	 }
+
+	</style>
+
+
+
+<body>
+
+<header>
+	<h1> Crash Course</h1>
+</header>
+
+
+
+<div id="container">
+
+<button id="btn1"> button 1 </button>
+
+<p class="para1"> This is a paragraph</p>
+
+<p class="para2"> This is another paragraph</p>
+
+<div id="myDiv"></div>
+
+<a href ="google.com">Google</a>
+
+<input type="text" id="newItem">
+<ul>
+	<li> List Item 1</li>
+	<li> List Item 2</li>
+	<li> List Item 3</li>
+	<li> List Item 4</li>
+	<li> List Item 5</li>
+</ul>	
+
+</div>
+
+
+
+
+
+
+<script>
+
+
+/*
+$('#btn1').dblclick(function(){
+	$('.para1').toggle();
+
+});
+
+
+
+$('#btn1').hover(function(){
+	$('.para1').toggle();
+
+});
+
+
+$('#btn2').click(function(){
+	$('.para1').show();
+	
+}); */
+
+
+/*
+$('#btn1').on ('mouseenter', function(){
+	$('.para1').toggle();
+
+});
+
+
+$('#btn1').on ('mouseleave', function(){
+	$('.para1').toggle();
+
+});
+
+
+
+$('#btn1').on ('mousedown', function(){
+	$('.para1').toggle();
+
+});
+
+
+$('#btn1').on ('mouseup', function(){
+	$('.para1').toggle();
+
+});
+
+$('#btn1').click(function(e){
+	console.log();
+});
+
+
+$('#btn1').on ('mousemove', function(){
+	$('.para1').toggle();
+
+});
+
+
+$('input').focus(function(){
+	//alert('Focus');
+	$(this).css('background', 'pink')
+});
+
+$('input').blur(function(){
+	//alert('Focus');
+	$(this).css('background', '#fff')
+});
+
+$('select#gender').change(function(){
+	alert('Changed')
+
+
+
+$('select#gender').change(function(){
+	alert('Changed')
+});
+
+
+$('#form').submit(function(){
+	console.log('sumbitted')
+});
+*/
+/*
+$('ul').append('<li>Append List Item</li>');
+
+$('ul').prepend('<li>Prepend List Item</li>');
+
+$('.para1').appendTo('.para2');
+
+
+$('.para1').prependTo('.para2');
+
+$('ul').before('<h4> Hello </h4>');
+$('ul').after('<h4> World </h4>');
+
+$('ul').empty();
+
+$('ul').detach();
+$('p').wrapAll('<h1>');
+
+$('p').wrap('<h1>');
+
+*/
+
+
+/*
+
+
+$(document).ready(function(){
+	$('p.para1').css({color:'red', background:'#ccc'});
+});
+
+//$('p.para2').addClass('myClass');
+//$('p.para2').removeClass('myClass');
+
+$('#btn1').click(function(){
+	$('p.para2').toggleClass('myClass');
+
+
+
+//$('#myDiv').text('Hello World');
+
+$('#myDiv').html('<h3> Hello World </h3>');
+alert($('#myDiv').text());
+
+});
+
+
+	$( 'ul#list li:first ').css('color', 'red');
+	$( 'ul#list li:last ').css('color', 'green');
+	$( 'ul#list li:even ').css('background-color', 'yellow');
+	$( 'ul#list li:odd ').css('background-color', '#3333');
+	$( 'ul#list li:nth-child(3n)').css('list-style', 'none');
+	$( ':text').hide();
+
+/*
+	$('h1').hide();
+
+	$('h1#heading1').hide();
+
+
+*/
+
+
+
+
+ </script>
+
+</body>
+</html>
