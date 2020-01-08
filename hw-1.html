@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+
 	<title>Homework 1 </title>
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Sunflower:300&display=swap" rel="stylesheet">
 
 	<style>
-		
+
+
 		body{
 			background-color:#f2f2f2;
   		
@@ -13,6 +16,7 @@
 
 		main{
 			text-align: center;
+			padding:60px;
 		}
 
 
@@ -25,7 +29,21 @@
 			display:none;
 			padding:30px;
 			margin-bottom:20px;
+			font-size:24px;
+			line-height: 1.5em;
+			color:#f7931e;
+			font-style: italic;
+			font-family: 'Crimson Text', serif;
+
 			}
+
+		.better{
+			display:none;
+			color:#f7931e;
+			font-family: 'Sunflower', sans-serif;
+			font-size:30px;
+			display:none;
+		}	
 		
 		a{ 
 			padding:30px;
@@ -40,12 +58,25 @@
 		 }
 
 		a:hover{
-			font-style: italic;
+			color:#f7931e;
+
 		} 
 
-		.button2{
-			margin-top:40px;
+
+		.button{
+			font-family: 'Sunflower', sans-serif;
+			font-size:30px;
 			display:none;
+			color:#4d4d4d;
+
+			
+
+		}
+		.button2{
+			font-family: 'Anton', sans-serif;
+			margin-top:40px;
+			font-size:14px;
+			display:none;			
 		
 		}
 		.show{
@@ -59,7 +90,7 @@
 	
 
 		.sun{
-			fill:#faff73;
+			fill:#f3f094;
 			}
 		#sunny{
 			display:none;
@@ -77,6 +108,7 @@
 			width:50%;
 			}
 
+
 	</style>
 
 </head>
@@ -86,20 +118,29 @@
 
 <main>
 <div>	
-<h1> Hello There</h1>
+
 
 
 <a href="#" class="button"> Feeling a Bit Gray? </a>
 
-<p class="lyric"> You are my sunshine, my only sunshine
+<p class="lyric"> You are my sunshine, my only sunshine<br>
 				You make me happy when skies are gray.
-				<br><a href="#" class="button2"> Still feeling cloudy? </a>
+				<br>
+				<br>
+				<a href="#" class="button2"> Still feeling cloudy? </a>
 </p>
 
 
 
 
 </div>
+
+<div>
+	<p class="better"> Now that's better!
+				
+</p>
+
+</div>	
 
 <div class="container">
 <svg id="cloudy" data-name="cloudy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 416 349">
@@ -127,18 +168,33 @@
 
 <script>
 
-	  $('.button').hover( function (){
+
+		 $(document).ready(function() {
+         $('.button').fadeIn('slow');
+
+
+	 	$('.button').hover( function (){
   		$('.lyric').show();
   		$('.button').hide();
+  		$('.button2').fadeIn(7000);
   	
-
+ 	
+  		
 
   		$('.button2').click(function(){
-  			$('#sunny').fadeIn(3000);
+  			$('#sunny').fadeIn(5000);
   			$('#cloudy').hide();
+  			$('.lyric').hide();
+  			$('.button2').hide();
+			$('.better').fadeIn(5000);
+  		
 
-  	    $('#sunny').click(function() {
-   		$(this).rotate();}).click();
+
+
+
+
+});
+  
 
 });
   
