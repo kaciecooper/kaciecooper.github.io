@@ -30,6 +30,7 @@ if($('body.favorite-foods')) {
 
 function initiatize() {
 	showNav();
+	addActiveClass();
 }
 
 
