@@ -23,7 +23,7 @@ a{
   }
 
 
-.project-section{
+#topnav{
 	background-image: url("../images/circle-01.svg");
 	background-repeat: no-repeat;
 	background-position: center;
