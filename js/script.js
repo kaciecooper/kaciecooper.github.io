@@ -1,4 +1,3 @@
-alert("hi there");
 
 
 function showNav(){
@@ -6,9 +5,9 @@ $('#topnav').html(
 
 `
 <ul class="menu">
-		<li class="resources-link"><a href="#">resources</a>
-		<li class="resources-link"><a href="#">resources</a>
-		<li class="resources-link"><a href="#">resources</a>
+		<li class="resources-link"><a href="#">resources 1</a>
+		<li class="resources-link"><a href="favorite-foods.html">resources 2</a>
+		<li class="resources-link"><a href="#">resources 3 </a>
 </ul>
 `
 );
@@ -18,13 +17,14 @@ $('#topnav').html(
 
 
 function addActiveClass () {
-if($('body').class ('.favorite-foods')) {
-	alert('favorite-foods');
-}
+if($('body.favorite-foods')) {
+	$('.favorite-foods-link').addClass('active')
+
+	}else if($('body.resources') ){
+		$('.resources-link').addClass('active');
+	}
 
 }
-
-
 
 
 
