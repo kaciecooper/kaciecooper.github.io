@@ -1,39 +1,15 @@
+// your script file for adding your own jquery
+$(function() {
 
-`
-function showNav(){
-$('#topnav').html(
-
-`
-<ul class="menu">
-		<li class="resources-link"><a href="#">resources 1</a>
-		<li class="resources-link"><a href="favorite-foods.html">resources 2</a>
-		<li class="resources-link"><a href="#">resources 3 </a>
-</ul>
-`
-);
-
-}
+//the body group moves on the y for -60 (up)
+TweenMax.to(".project-section", 2.0, { 
+	y:-20, 
+	repeat:-1, 
+	yoyo:true, 
+	ease:Power1.easeInOut 		
+});
 
 
+// End of Your Code . Don't delete that line below!!
+});
 
-function addActiveClass () {
-if($('body.favorite-foods')) {
-	$('.favorite-foods-link').addClass('active')
-
-	}else if($('body.resources') ){
-		$('.resources-link').addClass('active');
-	}
-
-}
-
-
-
-function initiatize() {
-	showNav();
-	addActiveClass();
-}
-
-
-
-$(initiatize()); 
-`
