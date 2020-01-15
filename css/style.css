@@ -2,7 +2,7 @@
 
 .navbar {
   overflow: hidden;
-  margin-top:40%;
+  margin-top:50%;
   margin:auto;
   display:flex;
   justify-content: center;
@@ -19,11 +19,13 @@
 .dropdown{
   float: left;
   overflow: hidden;
+  margin:30px;
 }
 
 .dropdown-insp {
   float: left;
   overflow: hidden;
+  margin:30px;
 }
 
 .dropdown .dropbtn{
