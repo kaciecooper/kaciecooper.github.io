@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.navbar a {
+  float: left;
+  color: #f7b000;
+  padding:16px;
+  font-size: 20px;
+  font-family: tenez, sans-serif;
+  text-decoration: none;
+}
+
+.dropdown-class .dropdown-insp {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown-class .dropdown-insp .dropbtn- .dropbtn-insp {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: #f7b000;
+  padding:20px;
+  background-color: inherit;
+font-family: tenez, sans-serif;
+}
+
+.navbar a:hover, .dropdown-class .dropdown-insp:hover .dropbtn-class .dropbtn-insp {
+  background-color: #ffe1d9;
+}
+
+.dropdown-content-class .dropdown-content-insp {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content-class .dropdown-content-insp a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content-class .dropdown-content-insp a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-class .dropdown-insp:hover .dropdown-content-class .dropdown-content-insp {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <div class="dropdown-class">
+    <button class="dropbtn-class">In Class Demos
+      <i class="fa fa-caret-down"></i>
+    </button>
+      <div class="dropdown-content-class">
+      <a href="#">Css Grid</a>
+      <a href="#">Media Queries</a>
+      <a href="#">Link 3</a>
+    </div>
+
+  <div class="dropdown-insp">
+    <button class="dropbtn-insp">Inspiration
+     
+    </button>
+    <div class="dropdown-content-insp">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+
+
+  </div> 
+</div>
+
+<h3>Dropdown Menu inside a Navigation Bar</h3>
+<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+
+</body>
+</html>
