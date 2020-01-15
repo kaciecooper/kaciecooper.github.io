@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+
+		section{height:80vh;}
+
+	</style>	
+</head>
+
+
+
+<body>
+
+<main class="infinite-container">
+
+	<section class="infinite-item">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam reprehenderit nesciunt culpa voluptas, accusantium dolorum dolores, molestiae doloribus natus ut quae magni, soluta est maxime. Inventore quaerat incidunt quo Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dicta, illum sed, tempora, sunt officia, reprehenderit dolore delectus autem laborum perspiciatis pariatur! Fugit aperiam repellat deserunt accusamus nostrum nihil perferendis! </p>
+	</section>	
+
+	<section class="basic-sticky-example">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam reprehenderit nesciunt culpa voluptas, accusantium dolorum dolores, molestiae doloribus natus ut quae magni, soluta est maxime. Inventore quaerat incidunt quo voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dicta, illum sed, tempora, sunt officia, reprehenderit dolore delectus autem laborum perspiciatis pariatur! Fugit aperiam repellat deserunt accusamus nostrum nihil perferendis!</p>
+	</section>	
+
+	<section class="infinite-item">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam reprehenderit nesciunt culpa voluptas, accusantium dolorum dolores, molestiae doloribus natus ut quae magni, soluta est maxime. Inventore quaerat incidunt quo voluptatem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi dicta, illum sed, tempora, sunt officia, reprehenderit dolore delectus autem laborum perspiciatis pariatur! Fugit aperiam repellat deserunt accusamus nostrum nihil perferendis!</p>
+	
+	</section>
+</main>
+
+<script>
+  src="http://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"</script>
+ <script src="shortcuts/sticky.js"></script>
+
+<script src="jquery.waypoints.min.js"> </script>	
+<script>
+
+var sticky = new Waypoint.Sticky({
+  element: $('.basic-sticky-example')[0]
+})
+
+</script>
+
+</body>
+</html>
