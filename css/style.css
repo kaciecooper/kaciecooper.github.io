@@ -1,5 +1,18 @@
 
+.globnav {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 900;
+}
 
+.flex{ display: flex;
+      justify-content: center;
+      align-items: center;}
+
+/*------------DROP DOWN NAV---------------*/
 .navbar {
   overflow: hidden;
   margin-top:50%;
@@ -108,10 +121,42 @@
 }
 
 
+/*------------SVG---------------*/
 .dkpink{fill:#fb9475;}
 .lpink{fill:#ffe1d9;}
 .orange{fill:#f6a41e;}
 
+
+#menu-img{
+  width:60%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  }
+
+
+
+.name-svg{
+  width:500px;
+  height:300px;
+  position: absolute;
+  }
+
+
+.flower{
+     background-position: center;
+     width:100%;
+     height:800px;
+     }
+
+ 
+.svg-container{
+  text-align:center;
+  margin-top:-70%;
+  }
+
+
+/*------------LINKS---------------*/
 
 a{
 	  padding:20px;
@@ -133,26 +178,15 @@ a{
     text-decoration: none;
     }
 
+/*------------?---------------*/
 
-#menu-img{
-  width:60%;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
 
 .inclass-demos{
   position: absolute;
   top: 0;
 }
 
-
-.name-svg{
-	width:500px;
-	height:300px;
-	position: absolute;
-  }
-
+/*------------Circle Section---------------*/
 
 .project-section{
 	background-image: url("../images/circle-01.svg");
@@ -172,7 +206,7 @@ a{
   transform: translate(-50%, -50%);}
 
 
-
+/*------------Footer---------------*/
 .footer{
     color: #f7b000;
     margin: 0px auto;
@@ -185,17 +219,6 @@ a{
     font-style: normal;
     }
 
-  .flower{
-     background-position: center;
-	   width:100%;
-	   height:800px;
-     }
-
- 
-.svg-container{
-  text-align:center;
-  margin-top:-70%;
-  }
 
 /*-------------------------------------------*/
 @media only screen and (min-width:768px) {
