@@ -9,6 +9,7 @@ TweenMax.to(".project-section", 2.0, {
 	ease:Power1.easeInOut 		
 });
 
+/*
 function showNav(){
 $('.globnav').html(
 
@@ -39,7 +40,7 @@ function initiatize() {
 }
 
 $(initiatize()); 
-
+*/
 
 
 
