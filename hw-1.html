@@ -9,16 +9,20 @@
 
 	<style>
 		
+ body{
+  margin: auto;
+  }
 
 .topnav {
  overflow: hidden;
  background-color: #FFF;
- border:2px solid #ccc;
+ border:.25px solid #ccc;
+ margin-bottom:30px;
 }
 
 .topnav a {
   float: left;
-  display: block;
+  display:inline-block;
   color: #000;
   text-align: center;
   padding: 14px 16px;
@@ -28,7 +32,7 @@
   font-weight: 300;
 }
 
-.active {
+#active {
   background-color: #CCC;
   color: white;
 }
@@ -58,7 +62,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #ffe1d9;
+  background-color: #fff;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -80,7 +84,7 @@
 }
 
 .dropdown-content a:hover {
-  background-color: #f6a41e,
+  background-color: #f0f0f0,
   color: black;
 }
 
@@ -122,11 +126,11 @@
 			}
 
 		.better{
-			display:none;
 			color:#f7931e;
 			font-family: 'Sunflower', sans-serif;
 			font-size:30px;
 			display:none;
+			align-content: center;
 		}	
 		
 
@@ -136,30 +140,56 @@
 			font-size:30px;
 			display:none;
 			color:#4d4d4d;
+			text-decoration:none;
+			}
 
 			
 
-		}
+		
 		.button2{
 			font-family: 'Anton', sans-serif;
 			margin-top:40px;
 			font-size:14px;
-			display:none;			
+			display:none;
+			text-decoration:none;
+			}			
 		
-		}
+		.button2:active{
+			font-family: 'Anton', sans-serif;
+			margin-top:40px;
+			font-size:14px;
+			display:none;
+			text-decoration:none;
+			color:#ccc;
+
+			}
+		
 		.show{
 			display:block;
+			justify-content: center;
+            display: flex;
+            flex-direction: column;
 			}	
+	
+
 		.hw-1p{
 			  justify-content: center;
               display: flex;
              flex-direction: column;
-		}
+			}
 	
+
+		.text{
+			  justify-content: center;
+              display: flex;
+			}
+	
+
 
 		.sun{
 			fill:#f3f094;
 			}
+	
 		#sunny{
 			display:none;
 		    margin-top:-30%;}
@@ -186,14 +216,14 @@
 
 <main>
 	
-			<nav class="topnav" id="myTopnav">
-			<a href="#home" class="active">Home</a>
+		<nav class="topnav" id="myTopnav">
+			<a href="index.html" >Home</a>
 			 
 			  <div class="dropdown">
-			    <button class="dropbtn">Homework
+			    <button class="dropbtn"id="active">Homework
 			 	</button>
 				    <div class="dropdown-content">
-				      <a href="hw-1.html">Homework 1</a>
+				      <a href="hw-1.html"id="active">Homework 1</a>
 				      <a href="hw-2.html">Homework 2</a>
 				    </div>
 			  </div> 
@@ -224,7 +254,7 @@
 
 
 
-						<div>	
+						<div class="text">	
 
 
 
@@ -242,7 +272,7 @@
 
 						</div>
 
-						<div>
+						<div class="better">
 							<p class="better"> Now that's better!
 										
 						</p>
